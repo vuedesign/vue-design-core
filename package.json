@@ -1,6 +1,6 @@
 {
-  "name": "@vd/vue-design-core",
-  "version": "1.0.0",
+  "name": "vue-design-core",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {

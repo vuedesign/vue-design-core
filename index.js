@@ -2,20 +2,23 @@ import VueDesign, {
     router,
     store,
     http,
-    to,
-    filtersCommit,
     App,
     UIComponents
 } from './lib/vueDesign';
+import to from './lib/utils/to';
+import { filtersCommit } from './lib/utils';
+import { config, configs } from './lib/configs';
 
 export {
     router,
     store,
     http,
-    to,
-    filtersCommit,
+    UIComponents,
     App,
-    UIComponents
+    to,
+    config,
+    configs,
+    filtersCommit,
 }
 
 export default VueDesign;
