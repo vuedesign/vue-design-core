@@ -6,7 +6,11 @@
 - vue-router
 
 自动加载
-{ root } src/configs 中 文件
+- { root } src/configs 文件夹中的配置文件
+- { root } src/modules 业务模块
+- { root } src/globals 公共模块
+- { root } src/vendors 扩展：组件、指令、过滤器、mixin、插件、UI组件庫、工具
+- { root } src/App.vue 组件入口
 
 安装
 
@@ -54,7 +58,7 @@ new VueDesign(
 ).$mount('#app');
 ```
 
-获取 { root } src/configs 文件夹中胡配置文件
+获取 { root } src/configs 文件夹中的配置文件
 
 - 获取单文件：config('文件名')
 - 获取多文件：configs(['文件名1', '文件名2'， '文件名...'])
