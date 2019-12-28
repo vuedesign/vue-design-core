@@ -6,6 +6,7 @@ vue-design-core 要与 (vue-design-build)[https://github.com/vuedesign/vue-desig
 - vue
 - vuex
 - vue-router
+- axios
 
 自动加载
 - { root } src/configs 文件夹中的配置文件
