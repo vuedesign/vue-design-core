@@ -1,5 +1,7 @@
 # vue-design-core
 
+vue-design-core 要与 (vue-design-build)[https://github.com/vuedesign/vue-design-bulid] 配合使用
+
 聚成
 - vue
 - vuex
@@ -15,7 +17,7 @@
 安装
 
 ```bash
-npm install vue-design-core --save
+npm install vue-design-core vue-design-build --save
 ```
 
 使用
