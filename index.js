@@ -2,8 +2,7 @@ import VueDesign, {
     router,
     store,
     http,
-    App,
-    UIComponents
+    App
 } from './lib/vueDesign';
 import to from './lib/utils/to';
 import { filtersCommit } from './lib/utils';
@@ -13,7 +12,6 @@ export {
     router,
     store,
     http,
-    UIComponents,
     App,
     to,
     config,
